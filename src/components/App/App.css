@@ -1,0 +1,74 @@
+body {
+    background-image: url(./paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+    background-color: #00202e;
+    background-size: cover;
+}
+
+
+
+.main-app {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+ 
+
+.center {
+    text-align: center;
+}
+
+.main-app .inform {
+    margin: 0;    
+    background-color: #393E46;   
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    list-style: none;
+} 
+
+.all-container {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.right-block,
+.left-block {
+    width: 48%;
+} 
+
+.custom-li {
+    background-color: #393E46;
+} 
+
+h3 {
+    font-size: 1.5rem;
+} 
+
+
+
+@media (max-width: 680px) {
+
+    .main-app {
+        width: 90%;
+    }
+
+    .all-container {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+            
+    }
+
+    .right-block,
+    .left-block {
+        width: 100%;
+    } 
+
+    .right-block {
+        margin-bottom: 15px;
+    }
+}
+
+
+

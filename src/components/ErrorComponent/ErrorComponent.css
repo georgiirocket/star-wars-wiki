@@ -1,0 +1,9 @@
+.ErrorComponent {
+    text-align: center;
+}
+
+.ErrorComponent > p {
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,47 @@
+
+.main-header {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.main-header h1 {
+    width: 40%;
+    margin-bottom: 0;
+    font-size: 3rem;
+    
+}
+
+.main-header a {    
+    letter-spacing: 2px;
+    text-decoration: none !important; 
+    text-transform: uppercase;
+}
+
+.main-header .nav {
+    width: 60%;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;   
+
+} 
+
+@media (max-width: 960px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .main-header h1 {
+        width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+        
+    }
+} 
+
+@media (max-width: 680px) {
+    .main-header .nav {
+        width: 100%;   
+    }
+}
